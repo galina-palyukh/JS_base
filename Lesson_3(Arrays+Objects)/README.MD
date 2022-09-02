@@ -26,6 +26,21 @@
 `person[key] = myDataValue;`
 
 
+#### Методы обьектов:
+
+- hasOwnProperty() возвращает логическое значение, указывающее, содержит ли объект указанное свойство.
+
+- Object.getOwnPropertyNames() возвращает массив со всеми свойствами (независимо от того, перечисляемые они или нет), найденными непосредственно в переданном объекте.
+
+`const object1 = {
+  a: 1,
+  b: 2,
+  c: 3
+};`
+`console.log(Object.getOwnPropertyNames(object1));`
+`//expected output: Array ["a", "b", "c"]`
+
+
 
 #### Оператор new
 
